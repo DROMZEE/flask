@@ -12,6 +12,10 @@ def text_box():
     processed_text = text.upper()
     return render_template("bienvenue.html", message=processed_text)
 
+@app.route('/confirmation')
+def confirmation() :
+    return render_template('confirmation.html')
+
 @app.route('/test-formulaire')
 def formulaire() :
     return render_template('formulaire.html')
@@ -23,6 +27,7 @@ def test_form() :
     sexe = request.form['sexe']
     pseudo = request.form['pseudo']
     return render_template("confirmation.html", prenom=prenom, nom=nom, sexe=sexe, pseudo=pseudo)
+
 
 if __name__ == '__main__':
     app.run()
