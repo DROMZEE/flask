@@ -21,13 +21,17 @@ def formulaire() :
     return render_template('formulaire.html')
 
 @app.route('/test-formulaire', methods=['POST'])
-def test_form() :
+def test_form():
     prenom = request.form['prenom']
-    nom = request.form['nom']
-    sexe = request.form['sexe']
-    pseudo = request.form['pseudo']
-    return render_template("confirmation.html", prenom=prenom, nom=nom, sexe=sexe, pseudo=pseudo)
-
+    processed_text = prenom.upper()
+    #nom = request.form['nom']
+    #sexe = request.form['sexe']
+    #pseudo = request.form['pseudo']
+    #form_list = [['prenom',prenom],['nom',nom],['sexe',sexe], ['pseudo', pseudo]]
+    #return render_template('confirmation.html', prenom=processed_text)
+    return render_template("bienvenue.html", message=processed_text)
+    #return render_template("confirmation.html", form_list=form_list)
+    #return render_template("confirmation.html", prenom=prenom, nom=nom, sexe=sexe, pseudo=pseudo)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
