@@ -6,12 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-@app.route('/', methods=['POST'])
-def text_box():
-    text = request.form['username']
-    processed_text = text.upper()
-    return render_template("bienvenue.html", message=processed_text)
-
 @app.route('/confirmation')
 def confirmation() :
     return render_template('confirmation.html')
@@ -29,7 +23,7 @@ def test_form():
     #pseudo = request.form['pseudo']
     #form_list = [['prenom',prenom],['nom',nom],['sexe',sexe], ['pseudo', pseudo]]
     #return render_template('confirmation.html', prenom=processed_text)
-    return render_template("bienvenue.html", message=processed_text)
+    return render_template("confirmation.html", message=processed_text)
     #return render_template("confirmation.html", form_list=form_list)
     #return render_template("confirmation.html", prenom=prenom, nom=nom, sexe=sexe, pseudo=pseudo)
 
