@@ -12,7 +12,17 @@ Flask exemple project
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+
+
+
+http://127.0.0.1:5000/
+
+
+
+
+
+* [5. Formulaires et bases de données avec Flask](/exo_5/5_flask_SQLite.ipynb]
+* 
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -51,3 +61,8 @@ Created by [@dromzee](https://dromzee.fr/) - feel free to contact me!
 
 * https://gitexplorer.com/
 * https://www.gitignore.io
+
+## Autres ressources utilisées
+
+* https://stackoverflow.com/questions/56481126/how-to-use-code-from-external-python-files-in-jupyter-notebook
+* https://stackoverflow.com/questions/56812637/script-display-from-an-external-file-in-jupyter-notebook-with-syntax-highlightin
