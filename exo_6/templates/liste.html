@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+      <title>Liste des utilisateurs</title>
+    </head>
+    <body>
+      <h1>Liste des utilisateurs</h1>
+      <p></p>
+
+      <table>
+        <thead>
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Pseudo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for el in liste %}
+              <tr>
+                <td>{{ el[0] }}</td>
+                <td>{{ el[1] }}</td>
+                <td>{{ el[2] }}</td>
+              </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+      <a href="{{ url_for('home') }}"> Page d'accueil </a>
+    </body>
+</html>
