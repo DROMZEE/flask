@@ -8,7 +8,7 @@ Flask exemple project
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
+* [Dépôt](#depot)
 * [Contact](#contact)
 
 ## General info
@@ -22,7 +22,7 @@ http://127.0.0.1:5000/
 
 
 * [5. Formulaires et bases de données avec Flask](/exo_5/5_flask_SQLite.ipynb]
-* 
+* [Quelques erreurs](/notebooks/erreurs.ipynb)
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -73,7 +73,12 @@ git remote show origin
 ```
 
 ## Contact
-Created by [@dromzee](https://dromzee.fr/) - feel free to contact me!
+
+* Cédric Dromzée
+    * https://github.com/DROMZEE/
+    * https://www.linkedin.com/in/dromzee/?locale=fr_FR
+    * https://dromzee.fr
+    * https://stackoverflow.com/users/2606247/c%c3%a9dric-dromz%c3%a9e
 
 ## Liens
 
@@ -84,3 +89,4 @@ Created by [@dromzee](https://dromzee.fr/) - feel free to contact me!
 
 * https://stackoverflow.com/questions/56481126/how-to-use-code-from-external-python-files-in-jupyter-notebook
 * https://stackoverflow.com/questions/56812637/script-display-from-an-external-file-in-jupyter-notebook-with-syntax-highlightin
+* https://www.mysqltutorial.org/getting-started-mysql-python-connector/
