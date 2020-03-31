@@ -51,8 +51,26 @@ To-do list:
 ## Status
 Project is: _in progress_
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
+## Dépôt
+
+Ce projet dispose de deux repo sur GitHub :
+* https://github.com/DROMZEE/flask
+* https://github.com/Simplon-IA-Biarritz-1/intro-a-flask-DROMZEE
+
+Commandes pour pusher sur deux dépôts (en SSH):
+
+```console
+git remote set-url --add --push origin git@github.com:DROMZEE/flask.git
+git remote set-url --add --push origin git@github.com:Simplon-IA-Biarritz-1/intro-a-flask-DROMZEE.git
+```
+
+```console
+git remote -v
+```
+
+```console
+git remote show origin
+```
 
 ## Contact
 Created by [@dromzee](https://dromzee.fr/) - feel free to contact me!
